@@ -4,8 +4,8 @@
 int main(){
  
     // Movimento da torre para cima usando "for"!
-    Printf("--- Movimento da Torre---\n");
-    
+    printf("--- Movimento da Torre---\n");
+
     for (int TorreCima = 2; TorreCima <= 8; TorreCima++) { // Como coloquei sendo menor ou igual a 8, a contagem para no 8. Sendo assim
                                                            // devo iniciar a contagem do número 2, para que sejam contabilizados até 7 movimentos.
         printf("Cima\n"); //O texto foi organizado para que fosse impresso quantas vezes a peça subiu.
@@ -16,7 +16,7 @@ int main(){
 
     // Aqui irei fazer o Bispo descendo no tabuleiro usando "while"!
     // Vamos supor que ele esteja na casa H8(Topo direito do tabuleiro)
-    Printf("--- Movimento do Bispo ---\n");
+    printf("--- Movimento do Bispo ---\n");
 
     int BispoDesce = 1; 
 
@@ -33,6 +33,7 @@ int main(){
     // Movimento da Rainha utilizando "do while"!
     // A rainha pode se mover livremente em uma linha reta para qualquer direção.
     // vamos supor que ela esteja na casa J5 e queremos ir para a esquerda.
+    printf("--- Movimento da Rainha ---\n");
 
     int rainha = 1;
 
@@ -46,7 +47,7 @@ int main(){
 
     printf("\n");
     //Movimento do cavalo para o desafio Aventureiro!
-    Printf("--- Movimento do Cavalo ---\n");
+    printf("--- Movimento do Cavalo ---\n");
     
     int cavaloAnda = 1; //Aqui declaro a variável
     while(cavaloAnda--) // Aqui é para fazer a variável cavaloAnda valer 0.
